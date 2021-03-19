@@ -3,7 +3,7 @@
 @inject EmployeeService employeeService
 @inject NavigationManager NavigationManager
 
-<h2>Update Employee</h2>
+<h2>Edit Employee</h2>
 <hr />
 
 <form>
@@ -48,11 +48,11 @@
 
 @code {
     [Parameter]
-    public int Id { get; set; }
+    public string Id { get; set; }
     Employee obj = new Employee();
     protected override async Task OnInitializedAsync()
     {
-        obj = await Task.Run(() => employeeService.GetEmployeeAsync(Id));
+        obj = await Task.Run(() => employeeService.GetEmployeeAsync(Convert.ToInt32(Id)));
     }
     protected async void UpdateEmployee()
     {
