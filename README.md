@@ -3,7 +3,7 @@
 ![Alt Text](https://github.com/JayKrishnareddy/BlazorCRUD/blob/master/Blazor_Crud.gif)
 
 ### Prerequisites
-- Install the latest .NET Core 3.1 SDK from [here](https://dotnet.microsoft.com/download/dotnet/5.0 "here").
+- Install the latest .NET Core 5.0 SDK from [here](https://dotnet.microsoft.com/download/dotnet/5.0 "here").
 - Install the latest version of Visual Studio 2019 from [here](https://visualstudio.microsoft.com/downloads/ "here").
 
 ### What we are going to cover in this?
